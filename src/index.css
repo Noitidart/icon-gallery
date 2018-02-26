@@ -1,0 +1,76 @@
+/* @font-face {
+    font-family: 'Ionicons';
+    src: url('./ionicons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.App-search {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.App-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hilited {
+    background-color: rgba(135, 207, 235, 0.5);
+}
+
+.IconPreview {
+    display: flex;
+    width: 200px;
+    height: 140px;
+    flex-basis: 300px;
+    flex-direction: column;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.IconPreview--icon {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    height: 96px;
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+.tagit {
+    margin: 0 2px;
+}
+
+.IconPreview--name {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.IconPreview--tags {
+    font-size: 10px;
+}
+
+.check-label {
+    margin-left: 4px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
